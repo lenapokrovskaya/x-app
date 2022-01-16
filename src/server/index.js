@@ -1,4 +1,6 @@
 const express = require('express');
+const mongoose = require('mongoose');
+const config = require('config')
 const app = express();
 const http = require('http');
 const server = http.createServer(app);

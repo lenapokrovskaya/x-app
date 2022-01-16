@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import { Header, Input, Button } from 'semantic-ui-react';
-
+import { Student } from '/Users/Lena/Desktop/x-app/src/pages/Student/Student.jsx';
 import AceEditor from "react-ace";
+import { Routes, Route} from "react-router-dom";
 
 import "ace-builds/src-noconflict/mode-javascript";
 import "ace-builds/src-noconflict/theme-terminal";
@@ -12,12 +13,8 @@ import socket from '../socket';
 
 // function App() {
 class App extends Component {
-  // useEffect(() => {
-  //   socket.emit('hello', 'erewrewr');
-  //   socket.on('privet', () => {
-  //     console.log('privet!!!')
-  //   })
-  // }, []);
+
+
   constructor(props) {
     super(props);
     this.state = {
@@ -76,6 +73,9 @@ class App extends Component {
       </div>
     </div>
   );
+  <Routes>
+<Route path="student" element={<Student />} />
+</Routes>
 }
 }
 

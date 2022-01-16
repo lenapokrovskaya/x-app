@@ -2,6 +2,7 @@
   "name": "x-app",
   "version": "0.1.0",
   "private": true,
+  "home": "https://lenapokrovskaya.github.io/x-app/",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -18,6 +19,7 @@
     "browserslist": "^4.18.1",
     "camelcase": "^6.2.1",
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
+    "config": "^3.3.7",
     "css-loader": "^6.5.1",
     "css-minimizer-webpack-plugin": "^3.2.0",
     "dotenv": "^10.0.0",
@@ -28,6 +30,7 @@
     "express": "^4.17.2",
     "file-loader": "^6.2.0",
     "fs-extra": "^10.0.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.5.0",
     "http": "^0.0.1-security",
     "identity-obj-proxy": "^3.0.0",
@@ -35,6 +38,7 @@
     "jest-resolve": "^27.4.2",
     "jest-watch-typeahead": "^1.0.0",
     "mini-css-extract-plugin": "^2.4.5",
+    "mongoose": "^6.1.6",
     "postcss": "^8.4.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-loader": "^6.2.1",
@@ -47,6 +51,7 @@
     "react-dev-utils": "^12.0.0",
     "react-dom": "^17.0.2",
     "react-refresh": "^0.11.0",
+    "react-router-dom": "^6.2.1",
     "resolve": "^1.20.0",
     "resolve-url-loader": "^4.0.0",
     "sass-loader": "^12.3.0",
@@ -68,7 +73,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -90,6 +97,7 @@
   },
   "devDependencies": {
     "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15",
     "sass-loader": "^12.4.0"
   },
   "jest": {

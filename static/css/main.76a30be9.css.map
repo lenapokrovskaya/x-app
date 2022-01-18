@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.76a30be9.css","mappings":"AAAA,KAEI,yBADA,UACoC,CACvC,QAGG,YAAa,CAChB,QAGG,iBAAkB","sources":["scss/app.scss"],"sourcesContent":["body {\n    color: white;\n    background-color: rgb(132, 132, 190);\n}\n\n.header {\n    padding: 30px;\n}\n\n.editor {\n    padding: 10px 30px;\n}"],"names":[],"sourceRoot":""}

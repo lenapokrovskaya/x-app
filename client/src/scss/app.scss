@@ -1,0 +1,29 @@
+body {
+    color: white;
+    background-color: #121730;
+    background-image: url("../assets/img/bg-image5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 100%;
+}
+
+.header {
+    padding: 30px;
+}
+
+.editor {
+    padding: 10px 30px;
+}
+
+.wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+a {
+    color:white;
+}

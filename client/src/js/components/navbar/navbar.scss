@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    background-color:#121730;
+    width: 100%;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #121730;
+
+    &__header {
+        margin-left: 10px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &__login {
+        color: white;
+        margin-left: auto;
+        font-size: 15px;
+        font-weight: 400;
+
+    }
+
+    &__registration {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 400;
+        border-radius: 10px;
+    }
+
+    &__login a,
+    &__registration a {
+    border-radius: 10px;
+    padding: 10px 20px;
+background: #121730;
+box-shadow:  8px 8px 16px #0f1429,
+             -8px -8px 16px #151a37;
+    }
+
+    &__logo {
+        width: 70px;
+        border-radius: 50%;
+        background: linear-gradient(145deg, #10152b, #131933);
+        box-shadow: 8px 8px 16px #0b0e1c, -8px -8px 16px #192044;
+        padding: 10px;
+    }
+}
+
+
+
+.container {
+    width: 1140px;
+    display: flex;
+    align-items: center;
+}

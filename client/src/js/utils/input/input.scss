@@ -1,0 +1,10 @@
+input {
+    border: none;
+    border-bottom: 2px solid grey;
+    background-color: transparent;
+    width: 100%;
+}
+
+input::placeholder {
+    color:white;
+}
